@@ -1,6 +1,26 @@
 # AceBook
 
+## Our approach
+- Initially, we decided our working practises.  This consisted of how we would schedule things such as morning stand-ups, retros, splitting the workload and what to do if anyone had issues.
+- As a team, we took a couple of days as a group to get a basic understanding of Ruby-on-Rails.
+- Once we had all become more comfortable, we felt able to split into groups and get started adding features etc
+
+## Team Struggles
+- Logging In
+- We didn't manage to host on Heroku as we had issues with uploading images to the site
+- It would have been easier to use Bootstrap from the start
+
+## Team Successes
+- Two team members conflicted a few times but we were able to manage this and continue with no hindrance
+- We managed to successfully split the workload via branching so that code wasn't overwritten
+- We kept to our schedule
+
+## What I would like to add
+- The ability to add friends
+- Having a default profile picture when creating an account
 ## Quickstart
+
+
 
 First, clone this repository. Then:
 
@@ -23,42 +43,3 @@ ExecJS::RuntimeUnavailable:
  ```
 
 Rails requires a Javascript runtime to work. The easiest way is to install Node by running `brew install node` - and then run `bundle exec rspec` again
-
-# Ginny's notes about the team project
-
-##Team Struggles
-Logging In
-
-Uploading Images
-
-Getting Heroku and/or AWS to work with how the images were being implemented
-
-Front end styling would have run smoother if we had implemented an outline first.
------I am included in being at fault for this.
-
-##Team Successes
-Continuing to work well as a team despite two team members having conflicts between them
-
-Successfully dividing work so that users were not over-writing each others code
-
-Keeping to team schedule
-
-![](../../../../../Desktop/Screenshot 2021-12-17 at 17.46.54.png)![](../../../../../Desktop/Screenshot 2021-12-17 at 17.47.11.png)![](../../../../../Desktop/Screenshot 2021-12-17 at 17.47.28.png)
-
-###What I want to improve from this project
-Implement screen messages for when log in or create an acct fails (currently just refreshing page to try again)
-
-Remove requirement to have a profile pic in order to create an account.
-
-Enable editing user profile - to include changing profile picture and Name
-
-Add username to User table
-
-Use username in URL vs user ID
-
-Allow liking and commenting directly from post list view
-
-Find a way to have formatting with the post window - i.e. right now, even if you create new lines or spaces between paragraphs in a post, it does not save this formatting when the post is saved
-implement file on Heroku with image capabilities
-
-clean up CSS files so that they are easier to find/edit or change
